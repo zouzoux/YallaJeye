@@ -1,0 +1,1064 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040F155B1C8CEF59000D0C3D /* larahaddad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 040F155A1C8CEF59000D0C3D /* larahaddad.jpg */; };
+		041BAFC31C39732000D81EA7 /* CustomDipNDipCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BAFC21C39732000D81EA7 /* CustomDipNDipCellTableViewCell.swift */; };
+		041BAFC51C39734E00D81EA7 /* KWStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BAFC41C39734E00D81EA7 /* KWStepper.swift */; };
+		041BAFC71C3973A700D81EA7 /* CheckboxButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BAFC61C3973A700D81EA7 /* CheckboxButton.swift */; };
+		041BAFC91C3978E600D81EA7 /* DipNDipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041BAFC81C3978E600D81EA7 /* DipNDipViewController.swift */; };
+		0421DBDC1C42733D0048C542 /* BABII___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0421DBDB1C42733D0048C542 /* BABII___.TTF */; };
+		0421DBDE1C4276810048C542 /* BABIB___.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 0421DBDD1C4276810048C542 /* BABIB___.TTF */; };
+		0422394A1C46A9D9007A2E6C /* ZBurgerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042239491C46A9D9007A2E6C /* ZBurgerViewController.swift */; };
+		04236B671C5115C000D0FA40 /* KallasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04236B661C5115C000D0FA40 /* KallasViewController.swift */; };
+		0445FE521C8C93F600CD02A0 /* KurkaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445FE511C8C93F600CD02A0 /* KurkaViewController.swift */; };
+		0445FE541C8C947800CD02A0 /* final logo kurka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0445FE531C8C947800CD02A0 /* final logo kurka.jpg */; };
+		0445FE561C8CD64400CD02A0 /* giganetlogo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0445FE551C8CD64400CD02A0 /* giganetlogo.jpg */; };
+		0445FE591C8CDE0100CD02A0 /* GiganetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0445FE581C8CDE0100CD02A0 /* GiganetViewController.swift */; };
+		04496D361C3C254F0006DA85 /* ConfirmationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04496D351C3C254F0006DA85 /* ConfirmationTableViewCell.swift */; };
+		04596FDE1C5680C700DC898B /* HolyWoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04596FDD1C5680C700DC898B /* HolyWoodViewController.swift */; };
+		04596FE01C57EAFA00DC898B /* SendNotiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04596FDF1C57EAFA00DC898B /* SendNotiViewController.swift */; };
+		04724E7B1C63D767008269F3 /* alfa3.64.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04724E761C63D767008269F3 /* alfa3.64.jpg */; };
+		04724E7C1C63D767008269F3 /* alfa9.09.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04724E771C63D767008269F3 /* alfa9.09.jpg */; };
+		04724E7D1C63D767008269F3 /* alfa22.73.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04724E781C63D767008269F3 /* alfa22.73.jpg */; };
+		04724E7E1C63D767008269F3 /* touch11.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04724E791C63D767008269F3 /* touch11.jpg */; };
+		04724E7F1C63D767008269F3 /* touch22.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 04724E7A1C63D767008269F3 /* touch22.jpg */; };
+		04724E821C6530F1008269F3 /* PrepaidCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04724E811C6530F1008269F3 /* PrepaidCardsViewController.swift */; };
+		047346EA1C220F8C00A8F3F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047346E91C220F8C00A8F3F0 /* AppDelegate.swift */; };
+		047346EC1C220F8C00A8F3F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047346EB1C220F8C00A8F3F0 /* ViewController.swift */; };
+		047346EF1C220F8C00A8F3F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047346ED1C220F8C00A8F3F0 /* Main.storyboard */; };
+		047346F21C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 047346F01C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodeld */; };
+		047346F41C220F8C00A8F3F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047346F31C220F8C00A8F3F0 /* Assets.xcassets */; };
+		047346F71C220F8C00A8F3F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 047346F51C220F8C00A8F3F0 /* LaunchScreen.storyboard */; };
+		047347021C220F8C00A8F3F0 /* YaLaJeYeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047347011C220F8C00A8F3F0 /* YaLaJeYeTests.swift */; };
+		0473470D1C220F8C00A8F3F0 /* YaLaJeYeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473470C1C220F8C00A8F3F0 /* YaLaJeYeUITests.swift */; };
+		0473471B1C22117400A8F3F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473471A1C22117400A8F3F0 /* CoreGraphics.framework */; };
+		0473471D1C22118200A8F3F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473471C1C22118200A8F3F0 /* AudioToolbox.framework */; };
+		0473471F1C22118600A8F3F0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473471E1C22118600A8F3F0 /* CFNetwork.framework */; };
+		047347211C22118F00A8F3F0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047347201C22118F00A8F3F0 /* CoreLocation.framework */; };
+		047347231C22119300A8F3F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047347221C22119300A8F3F0 /* QuartzCore.framework */; };
+		047347251C22119A00A8F3F0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047347241C22119A00A8F3F0 /* Security.framework */; };
+		047347271C22119F00A8F3F0 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047347261C22119F00A8F3F0 /* StoreKit.framework */; };
+		047347291C2211AA00A8F3F0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 047347281C2211AA00A8F3F0 /* SystemConfiguration.framework */; };
+		0473472B1C2211B400A8F3F0 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473472A1C2211B400A8F3F0 /* libz.tbd */; };
+		0473472D1C2211B900A8F3F0 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473472C1C2211B900A8F3F0 /* libsqlite3.tbd */; };
+		0473473B1C22288A00A8F3F0 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473473A1C22288A00A8F3F0 /* Parse.framework */; };
+		0473473D1C22289300A8F3F0 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0473473C1C22289300A8F3F0 /* Bolts.framework */; };
+		047347411C22293F00A8F3F0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047347401C22293F00A8F3F0 /* LoginViewController.swift */; };
+		047347471C22F95B00A8F3F0 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047347461C22F95B00A8F3F0 /* SignUpViewController.swift */; };
+		0473474A1C29490100A8F3F0 /* SuperMarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047347491C29490100A8F3F0 /* SuperMarketViewController.swift */; };
+		0473474C1C29502400A8F3F0 /* SuperMarketOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0473474B1C29502400A8F3F0 /* SuperMarketOrderViewController.swift */; };
+		0473474E1C2B48BD00A8F3F0 /* yallaJeye.tif in Resources */ = {isa = PBXBuildFile; fileRef = 0473474D1C2B48BD00A8F3F0 /* yallaJeye.tif */; };
+		0483C5AF1C5A6C5C002C1376 /* MrGrillViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0483C5AE1C5A6C5C002C1376 /* MrGrillViewController.swift */; };
+		0488A4761C6BF8030048FF55 /* Kallas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0488A4751C6BF8030048FF55 /* Kallas.jpg */; };
+		0488A4781C6BF9550048FF55 /* Mr Grill.png in Resources */ = {isa = PBXBuildFile; fileRef = 0488A4771C6BF9550048FF55 /* Mr Grill.png */; };
+		0488A47A1C6C04A50048FF55 /* IMG_8195.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0488A4791C6C04A50048FF55 /* IMG_8195.JPG */; };
+		0488A47C1C6C04B10048FF55 /* IMG_8196.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0488A47B1C6C04B10048FF55 /* IMG_8196.JPG */; };
+		04A19F851C40280600173B5B /* FinalConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A19F841C40280600173B5B /* FinalConfirmationViewController.swift */; };
+		04B3B4131C499B08000D8A39 /* AdminTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B4121C499B07000D8A39 /* AdminTableViewController.swift */; };
+		04B3B4151C49A9DF000D8A39 /* AdminTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B4141C49A9DF000D8A39 /* AdminTableViewCell.swift */; };
+		04B3B4181C4A59DA000D8A39 /* PizeriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B4171C4A59DA000D8A39 /* PizeriaViewController.swift */; };
+		04B3B41B1C4BE194000D8A39 /* CroissantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B41A1C4BE194000D8A39 /* CroissantViewController.swift */; };
+		04B3B4221C4BF8EB000D8A39 /* FalafelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3B4211C4BF8EB000D8A39 /* FalafelViewController.swift */; };
+		04B4A9B11C3EB6CA001C4FEF /* ConfirmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4A9B01C3EB6CA001C4FEF /* ConfirmViewController.swift */; };
+		04B4A9B41C3EBE23001C4FEF /* LaTourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4A9B31C3EBE23001C4FEF /* LaTourViewController.swift */; };
+		04B4A9B71C3ECDB9001C4FEF /* DagherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4A9B61C3ECDB9001C4FEF /* DagherViewController.swift */; };
+		04B4A9BB1C3EE548001C4FEF /* RicardoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B4A9BA1C3EE548001C4FEF /* RicardoViewController.swift */; };
+		04D001F31C2B5DA000746877 /* AkiraTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001E71C2B5D9F00746877 /* AkiraTextField.swift */; };
+		04D001F41C2B5DA000746877 /* HoshiTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001E81C2B5D9F00746877 /* HoshiTextField.swift */; };
+		04D001F51C2B5DA000746877 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 04D001E91C2B5DA000746877 /* Info.plist */; };
+		04D001F61C2B5DA000746877 /* IsaoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001EA1C2B5DA000746877 /* IsaoTextField.swift */; };
+		04D001F71C2B5DA000746877 /* JiroTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001EB1C2B5DA000746877 /* JiroTextField.swift */; };
+		04D001F81C2B5DA000746877 /* KaedeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001EC1C2B5DA000746877 /* KaedeTextField.swift */; };
+		04D001F91C2B5DA000746877 /* MadokaTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001ED1C2B5DA000746877 /* MadokaTextField.swift */; };
+		04D001FA1C2B5DA000746877 /* MinoruTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001EE1C2B5DA000746877 /* MinoruTextField.swift */; };
+		04D001FB1C2B5DA000746877 /* TextFieldsEffects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001F01C2B5DA000746877 /* TextFieldsEffects.swift */; };
+		04D001FC1C2B5DA000746877 /* YokoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001F11C2B5DA000746877 /* YokoTextField.swift */; };
+		04D001FD1C2B5DA000746877 /* YoshikoTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001F21C2B5DA000746877 /* YoshikoTextField.swift */; };
+		04D002001C303BBD00746877 /* AEAccordionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001FE1C303BBD00746877 /* AEAccordionTableViewCell.swift */; };
+		04D002011C303BBD00746877 /* AEAccordionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D001FF1C303BBD00746877 /* AEAccordionTableViewController.swift */; };
+		04D002031C303BC600746877 /* AEXibceptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D002021C303BC600746877 /* AEXibceptionView.swift */; };
+		04E179D21C4541040027C158 /* LePouletViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179D11C4541040027C158 /* LePouletViewController.swift */; };
+		04E179D51C45457D0027C158 /* CharboulViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179D41C45457D0027C158 /* CharboulViewController.swift */; };
+		04E179D81C45498B0027C158 /* TanbakjiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179D71C45498B0027C158 /* TanbakjiViewController.swift */; };
+		04E179DB1C45589E0027C158 /* Mass3adViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179DA1C45589E0027C158 /* Mass3adViewController.swift */; };
+		04E179DE1C455AE70027C158 /* AdokitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179DD1C455AE70027C158 /* AdokitViewController.swift */; };
+		04E179E11C45600E0027C158 /* ShawarmaBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179E01C45600E0027C158 /* ShawarmaBarViewController.swift */; };
+		04E179E41C4565D00027C158 /* SubzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179E31C4565D00027C158 /* SubzViewController.swift */; };
+		04E179E71C456C2D0027C158 /* ChoueiryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E179E61C456C2D0027C158 /* ChoueiryViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		047346FE1C220F8C00A8F3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047346DE1C220F8C00A8F3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047346E51C220F8C00A8F3F0;
+			remoteInfo = YaLaJeYe;
+		};
+		047347091C220F8C00A8F3F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 047346DE1C220F8C00A8F3F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 047346E51C220F8C00A8F3F0;
+			remoteInfo = YaLaJeYe;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		040F155A1C8CEF59000D0C3D /* larahaddad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = larahaddad.jpg; sourceTree = "<group>"; };
+		041BAFC21C39732000D81EA7 /* CustomDipNDipCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomDipNDipCellTableViewCell.swift; sourceTree = "<group>"; };
+		041BAFC41C39734E00D81EA7 /* KWStepper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KWStepper.swift; path = "../../../Downloads/KWStepper-master/Source/KWStepper.swift"; sourceTree = "<group>"; };
+		041BAFC61C3973A700D81EA7 /* CheckboxButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CheckboxButton.swift; path = "../../../Downloads/CheckboxButton-master-2/CheckboxButton/CheckboxButton.swift"; sourceTree = "<group>"; };
+		041BAFC81C3978E600D81EA7 /* DipNDipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DipNDipViewController.swift; path = ../DipNDipViewController.swift; sourceTree = "<group>"; };
+		0421DBDB1C42733D0048C542 /* BABII___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BABII___.TTF"; path = "../../../Downloads/babiole-2/BABII___.TTF"; sourceTree = "<group>"; };
+		0421DBDD1C4276810048C542 /* BABIB___.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BABIB___.TTF"; path = "../../../Downloads/babiole-2/BABIB___.TTF"; sourceTree = "<group>"; };
+		042239491C46A9D9007A2E6C /* ZBurgerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZBurgerViewController.swift; sourceTree = "<group>"; };
+		04236B661C5115C000D0FA40 /* KallasViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KallasViewController.swift; sourceTree = "<group>"; };
+		0445FE511C8C93F600CD02A0 /* KurkaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KurkaViewController.swift; sourceTree = "<group>"; };
+		0445FE531C8C947800CD02A0 /* final logo kurka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "final logo kurka.jpg"; sourceTree = "<group>"; };
+		0445FE551C8CD64400CD02A0 /* giganetlogo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giganetlogo.jpg; sourceTree = "<group>"; };
+		0445FE581C8CDE0100CD02A0 /* GiganetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GiganetViewController.swift; sourceTree = "<group>"; };
+		04496D351C3C254F0006DA85 /* ConfirmationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmationTableViewCell.swift; sourceTree = "<group>"; };
+		04596FDD1C5680C700DC898B /* HolyWoodViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HolyWoodViewController.swift; sourceTree = "<group>"; };
+		04596FDF1C57EAFA00DC898B /* SendNotiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendNotiViewController.swift; sourceTree = "<group>"; };
+		04724E761C63D767008269F3 /* alfa3.64.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alfa3.64.jpg; path = "../../Prepaid Cards/alfa3.64.jpg"; sourceTree = "<group>"; };
+		04724E771C63D767008269F3 /* alfa9.09.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alfa9.09.jpg; path = "../../Prepaid Cards/alfa9.09.jpg"; sourceTree = "<group>"; };
+		04724E781C63D767008269F3 /* alfa22.73.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = alfa22.73.jpg; path = "../../Prepaid Cards/alfa22.73.jpg"; sourceTree = "<group>"; };
+		04724E791C63D767008269F3 /* touch11.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = touch11.jpg; path = "../../Prepaid Cards/touch11.jpg"; sourceTree = "<group>"; };
+		04724E7A1C63D767008269F3 /* touch22.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = touch22.jpg; path = "../../Prepaid Cards/touch22.jpg"; sourceTree = "<group>"; };
+		04724E811C6530F1008269F3 /* PrepaidCardsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrepaidCardsViewController.swift; sourceTree = "<group>"; };
+		047346E61C220F8C00A8F3F0 /* YallaJeye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YallaJeye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		047346E91C220F8C00A8F3F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		047346EB1C220F8C00A8F3F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		047346EE1C220F8C00A8F3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		047346F11C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YaLaJeYe.xcdatamodel; sourceTree = "<group>"; };
+		047346F31C220F8C00A8F3F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		047346F61C220F8C00A8F3F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		047346F81C220F8C00A8F3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047346FD1C220F8C00A8F3F0 /* YallaJeye.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YallaJeye.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		047347011C220F8C00A8F3F0 /* YaLaJeYeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaLaJeYeTests.swift; sourceTree = "<group>"; };
+		047347031C220F8C00A8F3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		047347081C220F8C00A8F3F0 /* YallaJeye.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YallaJeye.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0473470C1C220F8C00A8F3F0 /* YaLaJeYeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YaLaJeYeUITests.swift; sourceTree = "<group>"; };
+		0473470E1C220F8C00A8F3F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0473471A1C22117400A8F3F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0473471C1C22118200A8F3F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		0473471E1C22118600A8F3F0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		047347201C22118F00A8F3F0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		047347221C22119300A8F3F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		047347241C22119A00A8F3F0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		047347261C22119F00A8F3F0 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		047347281C2211AA00A8F3F0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0473472A1C2211B400A8F3F0 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0473472C1C2211B900A8F3F0 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		0473473A1C22288A00A8F3F0 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		0473473C1C22289300A8F3F0 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		047347401C22293F00A8F3F0 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		047347461C22F95B00A8F3F0 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		047347491C29490100A8F3F0 /* SuperMarketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperMarketViewController.swift; sourceTree = "<group>"; };
+		0473474B1C29502400A8F3F0 /* SuperMarketOrderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuperMarketOrderViewController.swift; sourceTree = "<group>"; };
+		0473474D1C2B48BD00A8F3F0 /* yallaJeye.tif */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = yallaJeye.tif; sourceTree = "<group>"; };
+		0483C5AE1C5A6C5C002C1376 /* MrGrillViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MrGrillViewController.swift; sourceTree = "<group>"; };
+		0488A4751C6BF8030048FF55 /* Kallas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Kallas.jpg; path = ../../Kallas.jpg; sourceTree = "<group>"; };
+		0488A4771C6BF9550048FF55 /* Mr Grill.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mr Grill.png"; path = "../../Mr Grill.png"; sourceTree = "<group>"; };
+		0488A4791C6C04A50048FF55 /* IMG_8195.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_8195.JPG; path = ../../../Downloads/IMG_8195.JPG; sourceTree = "<group>"; };
+		0488A47B1C6C04B10048FF55 /* IMG_8196.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_8196.JPG; path = ../../../Downloads/IMG_8196.JPG; sourceTree = "<group>"; };
+		04A19F841C40280600173B5B /* FinalConfirmationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FinalConfirmationViewController.swift; sourceTree = "<group>"; };
+		04B3B4121C499B07000D8A39 /* AdminTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminTableViewController.swift; sourceTree = "<group>"; };
+		04B3B4141C49A9DF000D8A39 /* AdminTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdminTableViewCell.swift; sourceTree = "<group>"; };
+		04B3B4171C4A59DA000D8A39 /* PizeriaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PizeriaViewController.swift; sourceTree = "<group>"; };
+		04B3B41A1C4BE194000D8A39 /* CroissantViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CroissantViewController.swift; sourceTree = "<group>"; };
+		04B3B4211C4BF8EB000D8A39 /* FalafelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FalafelViewController.swift; sourceTree = "<group>"; };
+		04B4A9B01C3EB6CA001C4FEF /* ConfirmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfirmViewController.swift; sourceTree = "<group>"; };
+		04B4A9B31C3EBE23001C4FEF /* LaTourViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaTourViewController.swift; sourceTree = "<group>"; };
+		04B4A9B61C3ECDB9001C4FEF /* DagherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DagherViewController.swift; sourceTree = "<group>"; };
+		04B4A9BA1C3EE548001C4FEF /* RicardoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RicardoViewController.swift; sourceTree = "<group>"; };
+		04D001E71C2B5D9F00746877 /* AkiraTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AkiraTextField.swift; sourceTree = "<group>"; };
+		04D001E81C2B5D9F00746877 /* HoshiTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoshiTextField.swift; sourceTree = "<group>"; };
+		04D001E91C2B5DA000746877 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04D001EA1C2B5DA000746877 /* IsaoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IsaoTextField.swift; sourceTree = "<group>"; };
+		04D001EB1C2B5DA000746877 /* JiroTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JiroTextField.swift; sourceTree = "<group>"; };
+		04D001EC1C2B5DA000746877 /* KaedeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KaedeTextField.swift; sourceTree = "<group>"; };
+		04D001ED1C2B5DA000746877 /* MadokaTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MadokaTextField.swift; sourceTree = "<group>"; };
+		04D001EE1C2B5DA000746877 /* MinoruTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MinoruTextField.swift; sourceTree = "<group>"; };
+		04D001EF1C2B5DA000746877 /* TextFieldEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldEffects.h; sourceTree = "<group>"; };
+		04D001F01C2B5DA000746877 /* TextFieldsEffects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextFieldsEffects.swift; sourceTree = "<group>"; };
+		04D001F11C2B5DA000746877 /* YokoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YokoTextField.swift; sourceTree = "<group>"; };
+		04D001F21C2B5DA000746877 /* YoshikoTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoshikoTextField.swift; sourceTree = "<group>"; };
+		04D001FE1C303BBD00746877 /* AEAccordionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AEAccordionTableViewCell.swift; path = "../../../Downloads/AEAccordion-master/AEAccordion/AEAccordionTableViewCell.swift"; sourceTree = "<group>"; };
+		04D001FF1C303BBD00746877 /* AEAccordionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AEAccordionTableViewController.swift; path = "../../../Downloads/AEAccordion-master/AEAccordion/AEAccordionTableViewController.swift"; sourceTree = "<group>"; };
+		04D002021C303BC600746877 /* AEXibceptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AEXibceptionView.swift; path = "../../../Downloads/AEAccordion-master/AEXibceptionView/AEXibceptionView.swift"; sourceTree = "<group>"; };
+		04E179D11C4541040027C158 /* LePouletViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LePouletViewController.swift; sourceTree = "<group>"; };
+		04E179D41C45457D0027C158 /* CharboulViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharboulViewController.swift; sourceTree = "<group>"; };
+		04E179D71C45498B0027C158 /* TanbakjiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TanbakjiViewController.swift; sourceTree = "<group>"; };
+		04E179DA1C45589E0027C158 /* Mass3adViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mass3adViewController.swift; sourceTree = "<group>"; };
+		04E179DD1C455AE70027C158 /* AdokitViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdokitViewController.swift; sourceTree = "<group>"; };
+		04E179E01C45600E0027C158 /* ShawarmaBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShawarmaBarViewController.swift; sourceTree = "<group>"; };
+		04E179E31C4565D00027C158 /* SubzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubzViewController.swift; sourceTree = "<group>"; };
+		04E179E61C456C2D0027C158 /* ChoueiryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoueiryViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		047346E31C220F8C00A8F3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0473472D1C2211B900A8F3F0 /* libsqlite3.tbd in Frameworks */,
+				0473472B1C2211B400A8F3F0 /* libz.tbd in Frameworks */,
+				047347291C2211AA00A8F3F0 /* SystemConfiguration.framework in Frameworks */,
+				0473473D1C22289300A8F3F0 /* Bolts.framework in Frameworks */,
+				047347271C22119F00A8F3F0 /* StoreKit.framework in Frameworks */,
+				047347251C22119A00A8F3F0 /* Security.framework in Frameworks */,
+				047347231C22119300A8F3F0 /* QuartzCore.framework in Frameworks */,
+				0473473B1C22288A00A8F3F0 /* Parse.framework in Frameworks */,
+				047347211C22118F00A8F3F0 /* CoreLocation.framework in Frameworks */,
+				0473471F1C22118600A8F3F0 /* CFNetwork.framework in Frameworks */,
+				0473471D1C22118200A8F3F0 /* AudioToolbox.framework in Frameworks */,
+				0473471B1C22117400A8F3F0 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047346FA1C220F8C00A8F3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047347051C220F8C00A8F3F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		041BAFC11C3972F600D81EA7 /* DipNDip */ = {
+			isa = PBXGroup;
+			children = (
+				041BAFC81C3978E600D81EA7 /* DipNDipViewController.swift */,
+				041BAFC41C39734E00D81EA7 /* KWStepper.swift */,
+				041BAFC61C3973A700D81EA7 /* CheckboxButton.swift */,
+				041BAFC21C39732000D81EA7 /* CustomDipNDipCellTableViewCell.swift */,
+			);
+			name = DipNDip;
+			sourceTree = "<group>";
+		};
+		042239481C46A990007A2E6C /* ZBurger */ = {
+			isa = PBXGroup;
+			children = (
+				042239491C46A9D9007A2E6C /* ZBurgerViewController.swift */,
+			);
+			name = ZBurger;
+			sourceTree = "<group>";
+		};
+		04236B651C5115A200D0FA40 /* Kallas */ = {
+			isa = PBXGroup;
+			children = (
+				04236B661C5115C000D0FA40 /* KallasViewController.swift */,
+			);
+			name = Kallas;
+			sourceTree = "<group>";
+		};
+		0445FE4E1C8C922800CD02A0 /* Kurka */ = {
+			isa = PBXGroup;
+			children = (
+				0445FE511C8C93F600CD02A0 /* KurkaViewController.swift */,
+			);
+			name = Kurka;
+			sourceTree = "<group>";
+		};
+		0445FE571C8CDDEF00CD02A0 /* Giganet */ = {
+			isa = PBXGroup;
+			children = (
+				0445FE581C8CDE0100CD02A0 /* GiganetViewController.swift */,
+			);
+			name = Giganet;
+			sourceTree = "<group>";
+		};
+		04496D341C3C1FD00006DA85 /* Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				04A19F841C40280600173B5B /* FinalConfirmationViewController.swift */,
+				04496D351C3C254F0006DA85 /* ConfirmationTableViewCell.swift */,
+				04B4A9B01C3EB6CA001C4FEF /* ConfirmViewController.swift */,
+			);
+			name = Confirmation;
+			sourceTree = "<group>";
+		};
+		04596FDC1C5680B200DC898B /* Holywood */ = {
+			isa = PBXGroup;
+			children = (
+				04596FDD1C5680C700DC898B /* HolyWoodViewController.swift */,
+			);
+			name = Holywood;
+			sourceTree = "<group>";
+		};
+		04724E801C6400EA008269F3 /* PrepaidCard */ = {
+			isa = PBXGroup;
+			children = (
+				04724E811C6530F1008269F3 /* PrepaidCardsViewController.swift */,
+			);
+			name = PrepaidCard;
+			sourceTree = "<group>";
+		};
+		047346DD1C220F8C00A8F3F0 = {
+			isa = PBXGroup;
+			children = (
+				0473472C1C2211B900A8F3F0 /* libsqlite3.tbd */,
+				0473472A1C2211B400A8F3F0 /* libz.tbd */,
+				047347281C2211AA00A8F3F0 /* SystemConfiguration.framework */,
+				047347261C22119F00A8F3F0 /* StoreKit.framework */,
+				047347241C22119A00A8F3F0 /* Security.framework */,
+				047347221C22119300A8F3F0 /* QuartzCore.framework */,
+				047347201C22118F00A8F3F0 /* CoreLocation.framework */,
+				0473471E1C22118600A8F3F0 /* CFNetwork.framework */,
+				0473471C1C22118200A8F3F0 /* AudioToolbox.framework */,
+				0473471A1C22117400A8F3F0 /* CoreGraphics.framework */,
+				047346E81C220F8C00A8F3F0 /* YaLaJeYe */,
+				047347001C220F8C00A8F3F0 /* YaLaJeYeTests */,
+				0473470B1C220F8C00A8F3F0 /* YaLaJeYeUITests */,
+				047346E71C220F8C00A8F3F0 /* Products */,
+				CCDDA886584084C66BE878E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		047346E71C220F8C00A8F3F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				047346E61C220F8C00A8F3F0 /* YallaJeye.app */,
+				047346FD1C220F8C00A8F3F0 /* YallaJeye.xctest */,
+				047347081C220F8C00A8F3F0 /* YallaJeye.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		047346E81C220F8C00A8F3F0 /* YaLaJeYe */ = {
+			isa = PBXGroup;
+			children = (
+				0445FE571C8CDDEF00CD02A0 /* Giganet */,
+				0445FE4E1C8C922800CD02A0 /* Kurka */,
+				0483C5AD1C5A6C47002C1376 /* Mr Grill */,
+				04596FDC1C5680B200DC898B /* Holywood */,
+				04236B651C5115A200D0FA40 /* Kallas */,
+				04B3B41C1C4BEC73000D8A39 /* Falafel Beit */,
+				04B3B4191C4BE182000D8A39 /* croissant */,
+				04B3B4161C4A59BA000D8A39 /* Pizeria */,
+				042239481C46A990007A2E6C /* ZBurger */,
+				04E179E51C456C0F0027C158 /* Choueiry */,
+				04E179E21C4565B20027C158 /* Subz */,
+				04E179DF1C455FF40027C158 /* Shawarma Bar */,
+				04E179DC1C455AD30027C158 /* Adokit */,
+				04E179D91C4558860027C158 /* Mass3ad */,
+				04E179D61C4549760027C158 /* Tanbakji */,
+				04E179D31C45455F0027C158 /* Snack Charboul */,
+				04E179D01C453F720027C158 /* Le Poulet */,
+				04B4A9B81C3EE50D001C4FEF /* Ricardo */,
+				04B4A9B51C3ECDA3001C4FEF /* Dagher */,
+				04B4A9B21C3EBDDC001C4FEF /* La tour */,
+				04496D341C3C1FD00006DA85 /* Confirmation */,
+				041BAFC11C3972F600D81EA7 /* DipNDip */,
+				04D001E61C2B5D9F00746877 /* TextFieldEffects */,
+				047347481C2947F800A8F3F0 /* Ressources */,
+				0473473C1C22289300A8F3F0 /* Bolts.framework */,
+				0473473A1C22288A00A8F3F0 /* Parse.framework */,
+				04724E801C6400EA008269F3 /* PrepaidCard */,
+				047346E91C220F8C00A8F3F0 /* AppDelegate.swift */,
+				04D002021C303BC600746877 /* AEXibceptionView.swift */,
+				04D001FE1C303BBD00746877 /* AEAccordionTableViewCell.swift */,
+				04D001FF1C303BBD00746877 /* AEAccordionTableViewController.swift */,
+				047347401C22293F00A8F3F0 /* LoginViewController.swift */,
+				0421DBDD1C4276810048C542 /* BABIB___.TTF */,
+				0421DBDB1C42733D0048C542 /* BABII___.TTF */,
+				047347461C22F95B00A8F3F0 /* SignUpViewController.swift */,
+				047346EB1C220F8C00A8F3F0 /* ViewController.swift */,
+				047347491C29490100A8F3F0 /* SuperMarketViewController.swift */,
+				04596FDF1C57EAFA00DC898B /* SendNotiViewController.swift */,
+				0473474B1C29502400A8F3F0 /* SuperMarketOrderViewController.swift */,
+				047346ED1C220F8C00A8F3F0 /* Main.storyboard */,
+				04B3B4141C49A9DF000D8A39 /* AdminTableViewCell.swift */,
+				047346F31C220F8C00A8F3F0 /* Assets.xcassets */,
+				047346F51C220F8C00A8F3F0 /* LaunchScreen.storyboard */,
+				047346F81C220F8C00A8F3F0 /* Info.plist */,
+				047346F01C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodeld */,
+				04B3B4121C499B07000D8A39 /* AdminTableViewController.swift */,
+			);
+			path = YaLaJeYe;
+			sourceTree = "<group>";
+		};
+		047347001C220F8C00A8F3F0 /* YaLaJeYeTests */ = {
+			isa = PBXGroup;
+			children = (
+				047347011C220F8C00A8F3F0 /* YaLaJeYeTests.swift */,
+				047347031C220F8C00A8F3F0 /* Info.plist */,
+			);
+			path = YaLaJeYeTests;
+			sourceTree = "<group>";
+		};
+		0473470B1C220F8C00A8F3F0 /* YaLaJeYeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0473470C1C220F8C00A8F3F0 /* YaLaJeYeUITests.swift */,
+				0473470E1C220F8C00A8F3F0 /* Info.plist */,
+			);
+			path = YaLaJeYeUITests;
+			sourceTree = "<group>";
+		};
+		047347481C2947F800A8F3F0 /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				0445FE531C8C947800CD02A0 /* final logo kurka.jpg */,
+				040F155A1C8CEF59000D0C3D /* larahaddad.jpg */,
+				0488A47B1C6C04B10048FF55 /* IMG_8196.JPG */,
+				0445FE551C8CD64400CD02A0 /* giganetlogo.jpg */,
+				0488A4791C6C04A50048FF55 /* IMG_8195.JPG */,
+				0488A4771C6BF9550048FF55 /* Mr Grill.png */,
+				0488A4751C6BF8030048FF55 /* Kallas.jpg */,
+				04724E761C63D767008269F3 /* alfa3.64.jpg */,
+				04724E771C63D767008269F3 /* alfa9.09.jpg */,
+				04724E781C63D767008269F3 /* alfa22.73.jpg */,
+				04724E791C63D767008269F3 /* touch11.jpg */,
+				04724E7A1C63D767008269F3 /* touch22.jpg */,
+				0473474D1C2B48BD00A8F3F0 /* yallaJeye.tif */,
+			);
+			name = Ressources;
+			sourceTree = "<group>";
+		};
+		0483C5AD1C5A6C47002C1376 /* Mr Grill */ = {
+			isa = PBXGroup;
+			children = (
+				0483C5AE1C5A6C5C002C1376 /* MrGrillViewController.swift */,
+			);
+			name = "Mr Grill";
+			sourceTree = "<group>";
+		};
+		04B3B4161C4A59BA000D8A39 /* Pizeria */ = {
+			isa = PBXGroup;
+			children = (
+				04B3B4171C4A59DA000D8A39 /* PizeriaViewController.swift */,
+			);
+			name = Pizeria;
+			sourceTree = "<group>";
+		};
+		04B3B4191C4BE182000D8A39 /* croissant */ = {
+			isa = PBXGroup;
+			children = (
+				04B3B41A1C4BE194000D8A39 /* CroissantViewController.swift */,
+			);
+			name = croissant;
+			sourceTree = "<group>";
+		};
+		04B3B41C1C4BEC73000D8A39 /* Falafel Beit */ = {
+			isa = PBXGroup;
+			children = (
+				04B3B4211C4BF8EB000D8A39 /* FalafelViewController.swift */,
+			);
+			name = "Falafel Beit";
+			sourceTree = "<group>";
+		};
+		04B4A9B21C3EBDDC001C4FEF /* La tour */ = {
+			isa = PBXGroup;
+			children = (
+				04B4A9B31C3EBE23001C4FEF /* LaTourViewController.swift */,
+			);
+			name = "La tour";
+			sourceTree = "<group>";
+		};
+		04B4A9B51C3ECDA3001C4FEF /* Dagher */ = {
+			isa = PBXGroup;
+			children = (
+				04B4A9B61C3ECDB9001C4FEF /* DagherViewController.swift */,
+			);
+			name = Dagher;
+			sourceTree = "<group>";
+		};
+		04B4A9B81C3EE50D001C4FEF /* Ricardo */ = {
+			isa = PBXGroup;
+			children = (
+				04B4A9BA1C3EE548001C4FEF /* RicardoViewController.swift */,
+			);
+			name = Ricardo;
+			sourceTree = "<group>";
+		};
+		04D001E61C2B5D9F00746877 /* TextFieldEffects */ = {
+			isa = PBXGroup;
+			children = (
+				04D001E71C2B5D9F00746877 /* AkiraTextField.swift */,
+				04D001E81C2B5D9F00746877 /* HoshiTextField.swift */,
+				04D001E91C2B5DA000746877 /* Info.plist */,
+				04D001EA1C2B5DA000746877 /* IsaoTextField.swift */,
+				04D001EB1C2B5DA000746877 /* JiroTextField.swift */,
+				04D001EC1C2B5DA000746877 /* KaedeTextField.swift */,
+				04D001ED1C2B5DA000746877 /* MadokaTextField.swift */,
+				04D001EE1C2B5DA000746877 /* MinoruTextField.swift */,
+				04D001EF1C2B5DA000746877 /* TextFieldEffects.h */,
+				04D001F01C2B5DA000746877 /* TextFieldsEffects.swift */,
+				04D001F11C2B5DA000746877 /* YokoTextField.swift */,
+				04D001F21C2B5DA000746877 /* YoshikoTextField.swift */,
+			);
+			name = TextFieldEffects;
+			path = "../../../Downloads/TextFieldEffects-master-2/TextFieldEffects/TextFieldEffects";
+			sourceTree = "<group>";
+		};
+		04E179D01C453F720027C158 /* Le Poulet */ = {
+			isa = PBXGroup;
+			children = (
+				04E179D11C4541040027C158 /* LePouletViewController.swift */,
+			);
+			name = "Le Poulet";
+			sourceTree = "<group>";
+		};
+		04E179D31C45455F0027C158 /* Snack Charboul */ = {
+			isa = PBXGroup;
+			children = (
+				04E179D41C45457D0027C158 /* CharboulViewController.swift */,
+			);
+			name = "Snack Charboul";
+			sourceTree = "<group>";
+		};
+		04E179D61C4549760027C158 /* Tanbakji */ = {
+			isa = PBXGroup;
+			children = (
+				04E179D71C45498B0027C158 /* TanbakjiViewController.swift */,
+			);
+			name = Tanbakji;
+			sourceTree = "<group>";
+		};
+		04E179D91C4558860027C158 /* Mass3ad */ = {
+			isa = PBXGroup;
+			children = (
+				04E179DA1C45589E0027C158 /* Mass3adViewController.swift */,
+			);
+			name = Mass3ad;
+			sourceTree = "<group>";
+		};
+		04E179DC1C455AD30027C158 /* Adokit */ = {
+			isa = PBXGroup;
+			children = (
+				04E179DD1C455AE70027C158 /* AdokitViewController.swift */,
+			);
+			name = Adokit;
+			sourceTree = "<group>";
+		};
+		04E179DF1C455FF40027C158 /* Shawarma Bar */ = {
+			isa = PBXGroup;
+			children = (
+				04E179E01C45600E0027C158 /* ShawarmaBarViewController.swift */,
+			);
+			name = "Shawarma Bar";
+			sourceTree = "<group>";
+		};
+		04E179E21C4565B20027C158 /* Subz */ = {
+			isa = PBXGroup;
+			children = (
+				04E179E31C4565D00027C158 /* SubzViewController.swift */,
+			);
+			name = Subz;
+			sourceTree = "<group>";
+		};
+		04E179E51C456C0F0027C158 /* Choueiry */ = {
+			isa = PBXGroup;
+			children = (
+				04E179E61C456C2D0027C158 /* ChoueiryViewController.swift */,
+			);
+			name = Choueiry;
+			sourceTree = "<group>";
+		};
+		CCDDA886584084C66BE878E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		047346E51C220F8C00A8F3F0 /* YallaJeye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047347111C220F8C00A8F3F0 /* Build configuration list for PBXNativeTarget "YallaJeye" */;
+			buildPhases = (
+				047346E21C220F8C00A8F3F0 /* Sources */,
+				047346E31C220F8C00A8F3F0 /* Frameworks */,
+				047346E41C220F8C00A8F3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YallaJeye;
+			productName = YaLaJeYe;
+			productReference = 047346E61C220F8C00A8F3F0 /* YallaJeye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		047346FC1C220F8C00A8F3F0 /* YallaJeyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047347141C220F8C00A8F3F0 /* Build configuration list for PBXNativeTarget "YallaJeyeTests" */;
+			buildPhases = (
+				047346F91C220F8C00A8F3F0 /* Sources */,
+				047346FA1C220F8C00A8F3F0 /* Frameworks */,
+				047346FB1C220F8C00A8F3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				047346FF1C220F8C00A8F3F0 /* PBXTargetDependency */,
+			);
+			name = YallaJeyeTests;
+			productName = YaLaJeYeTests;
+			productReference = 047346FD1C220F8C00A8F3F0 /* YallaJeye.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		047347071C220F8C00A8F3F0 /* YallaJeyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 047347171C220F8C00A8F3F0 /* Build configuration list for PBXNativeTarget "YallaJeyeUITests" */;
+			buildPhases = (
+				047347041C220F8C00A8F3F0 /* Sources */,
+				047347051C220F8C00A8F3F0 /* Frameworks */,
+				047347061C220F8C00A8F3F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0473470A1C220F8C00A8F3F0 /* PBXTargetDependency */,
+			);
+			name = YallaJeyeUITests;
+			productName = YaLaJeYeUITests;
+			productReference = 047347081C220F8C00A8F3F0 /* YallaJeye.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		047346DE1C220F8C00A8F3F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Joseph hajjar";
+				TargetAttributes = {
+					047346E51C220F8C00A8F3F0 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = PZ7ZN6W7Z2;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					047346FC1C220F8C00A8F3F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 047346E51C220F8C00A8F3F0;
+					};
+					047347071C220F8C00A8F3F0 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 047346E51C220F8C00A8F3F0;
+					};
+				};
+			};
+			buildConfigurationList = 047346E11C220F8C00A8F3F0 /* Build configuration list for PBXProject "YallaJeye" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 047346DD1C220F8C00A8F3F0;
+			productRefGroup = 047346E71C220F8C00A8F3F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				047346E51C220F8C00A8F3F0 /* YallaJeye */,
+				047346FC1C220F8C00A8F3F0 /* YallaJeyeTests */,
+				047347071C220F8C00A8F3F0 /* YallaJeyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		047346E41C220F8C00A8F3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04724E7E1C63D767008269F3 /* touch11.jpg in Resources */,
+				0488A47A1C6C04A50048FF55 /* IMG_8195.JPG in Resources */,
+				04724E7F1C63D767008269F3 /* touch22.jpg in Resources */,
+				0445FE541C8C947800CD02A0 /* final logo kurka.jpg in Resources */,
+				0488A4781C6BF9550048FF55 /* Mr Grill.png in Resources */,
+				047346F71C220F8C00A8F3F0 /* LaunchScreen.storyboard in Resources */,
+				047346F41C220F8C00A8F3F0 /* Assets.xcassets in Resources */,
+				040F155B1C8CEF59000D0C3D /* larahaddad.jpg in Resources */,
+				04724E7B1C63D767008269F3 /* alfa3.64.jpg in Resources */,
+				0445FE561C8CD64400CD02A0 /* giganetlogo.jpg in Resources */,
+				04D001F51C2B5DA000746877 /* Info.plist in Resources */,
+				0421DBDC1C42733D0048C542 /* BABII___.TTF in Resources */,
+				0473474E1C2B48BD00A8F3F0 /* yallaJeye.tif in Resources */,
+				04724E7D1C63D767008269F3 /* alfa22.73.jpg in Resources */,
+				0421DBDE1C4276810048C542 /* BABIB___.TTF in Resources */,
+				047346EF1C220F8C00A8F3F0 /* Main.storyboard in Resources */,
+				04724E7C1C63D767008269F3 /* alfa9.09.jpg in Resources */,
+				0488A4761C6BF8030048FF55 /* Kallas.jpg in Resources */,
+				0488A47C1C6C04B10048FF55 /* IMG_8196.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047346FB1C220F8C00A8F3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047347061C220F8C00A8F3F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		047346E21C220F8C00A8F3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04E179E71C456C2D0027C158 /* ChoueiryViewController.swift in Sources */,
+				04E179D81C45498B0027C158 /* TanbakjiViewController.swift in Sources */,
+				04E179D21C4541040027C158 /* LePouletViewController.swift in Sources */,
+				04596FE01C57EAFA00DC898B /* SendNotiViewController.swift in Sources */,
+				04D002001C303BBD00746877 /* AEAccordionTableViewCell.swift in Sources */,
+				04D001F41C2B5DA000746877 /* HoshiTextField.swift in Sources */,
+				04596FDE1C5680C700DC898B /* HolyWoodViewController.swift in Sources */,
+				04D001F31C2B5DA000746877 /* AkiraTextField.swift in Sources */,
+				0422394A1C46A9D9007A2E6C /* ZBurgerViewController.swift in Sources */,
+				04B4A9B41C3EBE23001C4FEF /* LaTourViewController.swift in Sources */,
+				04B4A9BB1C3EE548001C4FEF /* RicardoViewController.swift in Sources */,
+				047347411C22293F00A8F3F0 /* LoginViewController.swift in Sources */,
+				04A19F851C40280600173B5B /* FinalConfirmationViewController.swift in Sources */,
+				04496D361C3C254F0006DA85 /* ConfirmationTableViewCell.swift in Sources */,
+				047346F21C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodeld in Sources */,
+				04B3B4131C499B08000D8A39 /* AdminTableViewController.swift in Sources */,
+				04B3B41B1C4BE194000D8A39 /* CroissantViewController.swift in Sources */,
+				041BAFC91C3978E600D81EA7 /* DipNDipViewController.swift in Sources */,
+				04D001FB1C2B5DA000746877 /* TextFieldsEffects.swift in Sources */,
+				0473474A1C29490100A8F3F0 /* SuperMarketViewController.swift in Sources */,
+				0445FE591C8CDE0100CD02A0 /* GiganetViewController.swift in Sources */,
+				04B4A9B11C3EB6CA001C4FEF /* ConfirmViewController.swift in Sources */,
+				0445FE521C8C93F600CD02A0 /* KurkaViewController.swift in Sources */,
+				04D001F71C2B5DA000746877 /* JiroTextField.swift in Sources */,
+				04D002011C303BBD00746877 /* AEAccordionTableViewController.swift in Sources */,
+				04B3B4181C4A59DA000D8A39 /* PizeriaViewController.swift in Sources */,
+				04D001F81C2B5DA000746877 /* KaedeTextField.swift in Sources */,
+				041BAFC71C3973A700D81EA7 /* CheckboxButton.swift in Sources */,
+				047346EC1C220F8C00A8F3F0 /* ViewController.swift in Sources */,
+				04E179DE1C455AE70027C158 /* AdokitViewController.swift in Sources */,
+				04D001FC1C2B5DA000746877 /* YokoTextField.swift in Sources */,
+				04B3B4151C49A9DF000D8A39 /* AdminTableViewCell.swift in Sources */,
+				04D001F91C2B5DA000746877 /* MadokaTextField.swift in Sources */,
+				04E179DB1C45589E0027C158 /* Mass3adViewController.swift in Sources */,
+				04E179E11C45600E0027C158 /* ShawarmaBarViewController.swift in Sources */,
+				04D001FD1C2B5DA000746877 /* YoshikoTextField.swift in Sources */,
+				04724E821C6530F1008269F3 /* PrepaidCardsViewController.swift in Sources */,
+				04B3B4221C4BF8EB000D8A39 /* FalafelViewController.swift in Sources */,
+				047346EA1C220F8C00A8F3F0 /* AppDelegate.swift in Sources */,
+				04236B671C5115C000D0FA40 /* KallasViewController.swift in Sources */,
+				0473474C1C29502400A8F3F0 /* SuperMarketOrderViewController.swift in Sources */,
+				04E179D51C45457D0027C158 /* CharboulViewController.swift in Sources */,
+				041BAFC51C39734E00D81EA7 /* KWStepper.swift in Sources */,
+				047347471C22F95B00A8F3F0 /* SignUpViewController.swift in Sources */,
+				04B4A9B71C3ECDB9001C4FEF /* DagherViewController.swift in Sources */,
+				04E179E41C4565D00027C158 /* SubzViewController.swift in Sources */,
+				04D001F61C2B5DA000746877 /* IsaoTextField.swift in Sources */,
+				041BAFC31C39732000D81EA7 /* CustomDipNDipCellTableViewCell.swift in Sources */,
+				04D001FA1C2B5DA000746877 /* MinoruTextField.swift in Sources */,
+				0483C5AF1C5A6C5C002C1376 /* MrGrillViewController.swift in Sources */,
+				04D002031C303BC600746877 /* AEXibceptionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047346F91C220F8C00A8F3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047347021C220F8C00A8F3F0 /* YaLaJeYeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		047347041C220F8C00A8F3F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0473470D1C220F8C00A8F3F0 /* YaLaJeYeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		047346FF1C220F8C00A8F3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047346E51C220F8C00A8F3F0 /* YallaJeye */;
+			targetProxy = 047346FE1C220F8C00A8F3F0 /* PBXContainerItemProxy */;
+		};
+		0473470A1C220F8C00A8F3F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 047346E51C220F8C00A8F3F0 /* YallaJeye */;
+			targetProxy = 047347091C220F8C00A8F3F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		047346ED1C220F8C00A8F3F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047346EE1C220F8C00A8F3F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		047346F51C220F8C00A8F3F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				047346F61C220F8C00A8F3F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0473470F1C220F8C00A8F3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		047347101C220F8C00A8F3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		047347121C220F8C00A8F3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YaLaJeYe",
+				);
+				INFOPLIST_FILE = YaLaJeYe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseph1997.YaLaJeYe;
+				PRODUCT_NAME = YallaJeye;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		047347131C220F8C00A8F3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/YaLaJeYe",
+				);
+				INFOPLIST_FILE = YaLaJeYe/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseph1997.YaLaJeYe;
+				PRODUCT_NAME = YallaJeye;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		047347151C220F8C00A8F3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YaLaJeYeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseph1997.YaLaJeYeTests;
+				PRODUCT_NAME = YallaJeye;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YallaJeye.app/YallaJeye";
+			};
+			name = Debug;
+		};
+		047347161C220F8C00A8F3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YaLaJeYeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseph1997.YaLaJeYeTests;
+				PRODUCT_NAME = YallaJeye;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YallaJeye.app/YallaJeye";
+			};
+			name = Release;
+		};
+		047347181C220F8C00A8F3F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YaLaJeYeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseph1997.YaLaJeYeUITests;
+				PRODUCT_NAME = YallaJeye;
+				TEST_TARGET_NAME = YaLaJeYe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		047347191C220F8C00A8F3F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YaLaJeYeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joseph1997.YaLaJeYeUITests;
+				PRODUCT_NAME = YallaJeye;
+				TEST_TARGET_NAME = YaLaJeYe;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		047346E11C220F8C00A8F3F0 /* Build configuration list for PBXProject "YallaJeye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0473470F1C220F8C00A8F3F0 /* Debug */,
+				047347101C220F8C00A8F3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047347111C220F8C00A8F3F0 /* Build configuration list for PBXNativeTarget "YallaJeye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047347121C220F8C00A8F3F0 /* Debug */,
+				047347131C220F8C00A8F3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047347141C220F8C00A8F3F0 /* Build configuration list for PBXNativeTarget "YallaJeyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047347151C220F8C00A8F3F0 /* Debug */,
+				047347161C220F8C00A8F3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		047347171C220F8C00A8F3F0 /* Build configuration list for PBXNativeTarget "YallaJeyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				047347181C220F8C00A8F3F0 /* Debug */,
+				047347191C220F8C00A8F3F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		047346F01C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				047346F11C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodel */,
+			);
+			currentVersion = 047346F11C220F8C00A8F3F0 /* YaLaJeYe.xcdatamodel */;
+			path = YaLaJeYe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 047346DE1C220F8C00A8F3F0 /* Project object */;
+}
